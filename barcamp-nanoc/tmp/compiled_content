@@ -1,4 +1,86 @@
-{:	data{"/stylesheet/{:default{:pre"* {
+{:	data{	"/about/{:default{	:raw"Hi, I'm a new item!:pre"Hi, I'm a new item!:	post"}<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My blog - A New Item</title>
+    <meta name="description" content=""> 
+    <link rel="stylesheet" type="text/css" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  
+  <body>
+    <div class='navbar'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='brand' href='/'>My Blog</a>
+          <ul class='nav'>
+            <li class='active'><a href='http://beaverbarcamp.org'>Home</a></li>
+            <li><a href='http://beaverbarcamp.org/blog'>Blog</a></li>
+            <li><a href='http://beaverbarcamp.org/contact'>Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class='content'>
+      Hi, I'm a new item!
+    </section>
+  </body>
+</html>:	last@"/{;{	;"�<h1>A Brand New nanoc Site</h1>
+
+<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+
+<ul>
+  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
+  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
+</ul>
+
+<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;"�<h1>A Brand New nanoc Site</h1>
+
+<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+
+<ul>
+  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
+  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
+</ul>
+
+<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;	"�<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My blog - Beaver Barcamp 11 | Welcome to Beaver Barcamp 11</title>
+    <meta name="description" content="Beaver Barcamp 11 is on April 20th, 2013 at the Kelley Engineering Center at Oregon State University"> 
+    <link rel="stylesheet" type="text/css" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  
+  <body>
+    <div class='navbar'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='brand' href='/'>My Blog</a>
+          <ul class='nav'>
+            <li class='active'><a href='http://beaverbarcamp.org'>Home</a></li>
+            <li><a href='http://beaverbarcamp.org/blog'>Blog</a></li>
+            <li><a href='http://beaverbarcamp.org/contact'>Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class='content'>
+      <h1>A Brand New nanoc Site</h1>
+
+<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+
+<ul>
+  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
+  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
+</ul>
+
+<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
+    </section>
+  </body>
+</html>;
+@"/stylesheet/{;{;"* {
   margin: 0;
   padding: 0;
 
@@ -99,84 +181,57 @@ a:hover {
 
   line-height: 20px;
 }
-:raw@
-:	last@
-"/{;{	;"�<h1>A Brand New nanoc Site</h1>
+;@;
+@"/blog/first_post/{;{	;"�Hello World!
 
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+Welcome to my blog!
 
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
+It is filled with wondrous, bloggy things. Cats, mostly.
 
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>;"�<h1>A Brand New nanoc Site</h1>
+## Where are the cats?
 
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
+They've all wandered off. *Has anyone seen my cats?!*;"�Hello World!
 
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
+Welcome to my blog!
 
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>:	post"�<!DOCTYPE HTML>
+It is filled with wondrous, bloggy things. Cats, mostly.
+
+## Where are the cats?
+
+They've all wandered off. *Has anyone seen my cats?!*;	"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Beaver Barcamp 11 | Welcome to Beaver Barcamp 11</title>
-    <meta name="description" content="Beaver Barcamp 11 is on April 20th, 2013 at the Kelley Engineering Center at Oregon State University"> 
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <meta name="generator" content="nanoc 3.6.0"> 
-  </head>
-  <body>
-    <div id="main">
- 		<h1><a href="/">Beaver Barcamp 11 | Welcome to Beaver Barcamp 11</a></h1>
- 		<p class="created_at"></p>
- 		<h1>A Brand New nanoc Site</h1>
-
-<p>You’ve just created a new nanoc site. The page you are looking at right now is the home page for your site. To get started, consider replacing this default homepage with your own customized homepage. Some pointers on how to do so:</p>
-
-<ul>
-  <li><p><strong>Change this page’s content</strong> by editing the “index.html” file in the “content” directory. This is the actual page content, and therefore doesn’t include the header, sidebar or style information (those are part of the layout).</p></li>
-  <li><p><strong>Change the layout</strong>, which is the “default.html” file in the “layouts” directory, and create something unique (and hopefully less bland).</p></li>
-</ul>
-
-<p>If you need any help with customizing your nanoc web site, be sure to check out the documentation (see sidebar), and be sure to subscribe to the discussion group (also see sidebar). Enjoy!</p>
-    </div>
-       
-    <div id="sidebar">
-    
-    </div>
-  </body>
-</html>
-;	@"/blog/first_post/{;{	;"Hello World!;"Hello World!;
-"^<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>First Post</title>
+    <title>My blog - First Post</title>
     <meta name="description" content=""> 
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <meta name="generator" content="nanoc 3.6.0"> 
+    <link rel="stylesheet" type="text/css" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
+  
   <body>
-    <div id="main">
- 		<h1><a href="/blog/first_post/">First Post</a></h1>
- 		<p class="created_at">1 January 1970</p>
- 		Hello World!
+    <div class='navbar'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='brand' href='/'>My Blog</a>
+          <ul class='nav'>
+            <li class='active'><a href='http://beaverbarcamp.org'>Home</a></li>
+            <li><a href='http://beaverbarcamp.org/blog'>Blog</a></li>
+            <li><a href='http://beaverbarcamp.org/contact'>Blog</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-       
-    <div id="sidebar">
-    
-    </div>
+    <section class='content'>
+      Hello World!
+
+Welcome to my blog!
+
+It is filled with wondrous, bloggy things. Cats, mostly.
+
+## Where are the cats?
+
+They've all wandered off. *Has anyone seen my cats?!*
+    </section>
   </body>
-</html>
-;	@:versioni
+</html>;
+@:versioni
