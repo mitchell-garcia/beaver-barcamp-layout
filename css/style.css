@@ -266,3 +266,136 @@ hr {
 }
 
 }
+
+@media only screen and (min-width: 768px) {
+.flexnav li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    background-color: none;
+}
+  
+.flexnav li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    display: block;
+    top: 3.1em;
+    position: absolute;
+}
+  
+.flexnav.lg-screen li:hover > ul, .flexnav.sm-screen li:hover > ul {
+    display: none;
+}
+  
+.flexnav li a {
+    border-left: none;
+    border-bottom: none;
+}
+  
+.flexnav li > ul {
+    position: absolute;
+    top: auto;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 1px;
+    z-index: 1;
+}
+  
+.flexnav li ul li ul {
+    top: 0;
+}
+
+.flexnav li ul li a {
+    border-bottom: none;
+}
+  
+.flexnav li ul.open {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+  
+.flexnav li ul.open ul.open {
+    margin-left: 100%;
+    top: 0;
+}
+  
+.flexnav ul li:hover ul {
+    margin-left: 100%;
+    top: 0;
+}
+
+
+.menu-button {
+    display: none;
+}
+
+.oldie .flexnav li {
+  position: relative;
+  list-style: none;
+  float: left;
+  display: block;
+  background-color: #a6a6a2;
+  width: 20%;
+}
+
+.oldie .flexnav li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  display: block;
+  top: 3.1em;
+  position: absolute;
+}
+
+.oldie .flexnav.lg-screen li:hover > ul, .oldie .flexnav.sm-screen li:hover > ul {
+  display: none;
+}
+
+.oldie .flexnav li a {
+  border-left: 1px solid #acaca1;
+  border-bottom: none;
+}
+
+.oldie .flexnav li > ul {
+  position: absolute;
+  top: auto;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  height: 1px;
+  z-index: 1;
+}
+
+.oldie .flexnav li ul li ul {
+  top: 0;
+}
+
+.oldie .flexnav li ul li a {
+  border-bottom: none;
+}
+
+.oldie .flexnav li ul.open {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+}
+
+.oldie .flexnav li ul.open ul.open {
+  margin-left: 100%;
+  top: 0;
+}
+
+.oldie .flexnav ul li:hover ul {
+  margin-left: 100%;
+  top: 0;
+}
+
+.oldie .menu-button {
+  display: none;
+}
